@@ -145,4 +145,36 @@ int main(){
         cout << endl;
 
         switch (ch)
-        
+        {
+        case '1':
+        {
+            x.insert();
+            break;
+        }
+        case '2':
+        {
+            x.inorder(x.ROOT);
+            break;
+        }
+        case '3':
+        {
+
+            x.preorder(x.ROOT);
+            break;
+        }
+        case '4':
+        {
+
+            x.postorder(x.ROOT);
+            break;
+        }
+        case '5':
+            return 0;
+        default:
+        {
+            cout << "Invalid option" << endl;
+            break;
+        }
+        }
+    }
+}
