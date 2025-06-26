@@ -60,5 +60,9 @@ class BinaryTree{
                 //5a: Mark the new node as root
                 ROOT = newNode;
 
+                //5b: Exit
+                return;
+            }
+
         }
 };
