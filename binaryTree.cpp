@@ -83,4 +83,9 @@ class BinaryTree{
             }
         }
 
+        bool isEmpty(){
+            //Check if the tree is empty
+            return ROOT == nullptr;
+        }
+
 };
