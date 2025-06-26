@@ -121,3 +121,9 @@ class BinaryTree{
             }
             if(ptr == nullptr)
                 return;
+
+            postorder(ptr->leftchild);
+            postorder(ptr->rightchild);
+            cout << ptr->info << " "; //Parent
+        }
+};
