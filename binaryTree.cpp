@@ -100,3 +100,11 @@ class BinaryTree{
             cout << ptr->info << " "; //Parent
             inorder(ptr->rightchild);
         }
+
+        bool preorder(Node *ptr){
+            if (isEmpty()){
+                cout << "Tree is Empty" << endl;
+                return;
+            }
+            if(ptr == nullptr)
+                return;
