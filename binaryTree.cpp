@@ -108,3 +108,8 @@ class BinaryTree{
             }
             if(ptr == nullptr)
                 return;
+
+            cout << ptr->info << " "; //Parent
+            preorder(ptr->leftchild);
+            preorder(ptr->rightchild);
+        }
