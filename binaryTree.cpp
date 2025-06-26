@@ -96,7 +96,7 @@ class BinaryTree{
             if(ptr == nullptr)
                 return;
 
-           
-
+            inorder(ptr->leftchild);
+            cout << ptr->info << " "; //Parent
+            inorder(ptr->rightchild);
         }
-};
