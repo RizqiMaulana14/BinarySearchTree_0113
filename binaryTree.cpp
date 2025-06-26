@@ -113,3 +113,11 @@ class BinaryTree{
             preorder(ptr->leftchild);
             preorder(ptr->rightchild);
         }
+
+        bool postorder(Node *ptr){
+            if (isEmpty()){
+                cout << "Tree is Empty" << endl;
+                return;
+            }
+            if(ptr == nullptr)
+                return;
