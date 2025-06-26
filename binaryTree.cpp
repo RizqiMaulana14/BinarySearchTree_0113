@@ -158,13 +158,11 @@ int main(){
         }
         case '3':
         {
-
             x.preorder(x.ROOT);
             break;
         }
         case '4':
         {
-
             x.postorder(x.ROOT);
             break;
         }
