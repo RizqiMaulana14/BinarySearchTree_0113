@@ -22,4 +22,10 @@ class BinaryTree{
             ROOT = nullptr;         //initialize ROOT to null
         }
 
+        void search(int element, Node *&parent, Node *&currentNode){
+            //This function searches the currentNode of the specified node as well as the currentNode
+            currentNode = ROOT;
+            parent = nullptr;
+           
+        }
 };
